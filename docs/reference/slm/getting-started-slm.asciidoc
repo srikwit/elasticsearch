@@ -65,7 +65,7 @@ PUT /_slm/policy/nightly-snapshots
 <1> when the snapshot should be taken, using 
     <<schedule-cron,Cron syntax>>, in this 
     case at 1:30AM each day
-<2> whe name each snapshot should be given, using 
+<2> what name each snapshot should be given, using 
     <<date-math-index-names,date math>> to include the current date in the name
     of the snapshot
 <3> the repository the snapshot should be stored in
